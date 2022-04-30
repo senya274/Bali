@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+padding: 0;
+font-size: 15px;
+font-weight: 400;
+font-family: 'Vollkorn', serif;
+letter-spacing: 0.03em;
+}
+
+.header{
+    display: block;
+}
+    
+p{
+    margin: 0;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 1110px;
+ /* border: 1px solid red;  */
+margin: 0 auto;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+padding-top: 72px;
+margin-bottom: 72px;
+}
+a{
+    text-decoration: none;
+color: black;
+}
+
+.btn{
+    color: #fff;
+    font-size: 18px;
+    background: #6A85E3;
+padding:18px 30px;
+font-weight: 700;
+display: block;
+width: 195px;
+text-align: center;
+}
+.btn:hover{
+    background: #7988bd;;
+
+}
+
+.btn:active{
+    background: #0e1b49;
+}
+
+
+.desc{
+    margin-bottom: 21px;
+    font-size: 18px;
+margin-top: 21px;
+}
+
+.offer{
+margin-bottom: 98px;
+}
+.offer-title{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+margin-bottom: 21px;
+}
+.place{
+    font-size: 18px;
+    letter-spacing: 0.03em;
+line-height: 25px;
+}
+
+.intro{
+    background: #EAEAEA;
+    width: 441px;
+padding: 30px;
+}
+.intro-title{
+    font-weight: 700;
+margin-bottom: 17px;
+}
+.bali{
+   
+}
+
